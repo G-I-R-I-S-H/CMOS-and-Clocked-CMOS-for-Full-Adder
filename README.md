@@ -25,7 +25,11 @@ Open the Terminal
 ```bash
 tcsh
 ```
-###2️⃣ Source the Cadence Environment
+### 2️⃣ Source the Cadence Environment
 ```bash
 source cshrc
+```
+### 3️⃣ Open Virstuoso
+```bash
+virtuoso &
 ```
