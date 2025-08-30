@@ -24,5 +24,8 @@ This guide explains the step-by-step procedure to design and analyze a **Full Ad
 Open the Terminal
 ```bash
 tcsh
-
+```
 ###2️⃣ Source the Cadence Environment
+```bash
+source cshrc
+```
