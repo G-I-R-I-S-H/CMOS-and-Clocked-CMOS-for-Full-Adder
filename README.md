@@ -7,6 +7,14 @@ A **Full Adder** is a fundamental combinational digital circuit used in arithmet
 The **Sum output** represents the least significant bit (LSB) of the addition, while the **Carry output** indicates the overflow that must be added to the next higher bit in multi-bit binary addition. Full Adders are the building blocks for complex arithmetic circuits such as **ripple-carry adders**, **carry-lookahead adders**, and **arithmetic logic units (ALUs)** used in microprocessors and digital systems.  
 
 In hardware design, Full Adders are commonly implemented using **logic gates** or **transistor-level designs** like CMOS or Clocked CMOS logic. These implementations allow precise control over **power consumption, speed, and area**, making the Full Adder an essential component in **VLSI and embedded system design**.
+### Circuit diagram
+<p align="center">
+  <img src="Results/diagram.jpg" alt="Circuit Diagram of Full Adder" width="50%"/>
+</p>
+### Truth Table
+<p align="center">
+  <img src="Results/Truth_table.jpg" alt="Truth Table of Full Adder" width="50%"/>
+</p>
 
 
 This project implements the Full Adder using two approaches:
