@@ -13,3 +13,13 @@ This project implements the Full Adder using two approaches:
 - Design and simulation of the **circuit diagram** and **truth table**.  
 - **Performance analysis** of power consumption and propagation delay.  
 - Validation of the design with simulation outputs. 
+
+# Methodology: Full Adder Design in Cadence Virtuoso
+
+This guide explains the step-by-step procedure to design and analyze a **Full Adder** using **Fully CMOS** and **Clocked CMOS logic** in **Cadence Virtuoso**.
+
+---
+
+## 1️⃣ Start the Cadence Environment
+```bash
+tcsh
