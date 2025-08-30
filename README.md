@@ -135,6 +135,7 @@ The **Clocked CMOS Full Adder** schematic is implemented in Cadence Virtuoso usi
 <p align="center">
   <img src="Results/clocked_CMOS.jpg" alt="Clocked CMOS Full Adder Schematic" width="80%"/>
 </p>
+
 The corresponding **output simulation** demonstrates the correct operation of the Clocked CMOS Full Adder for all possible input conditions, as illustrated below:
 
 <p align="center">
