@@ -85,8 +85,21 @@ Follow these steps to create your **own library**, build the schematic, and prep
 
 ---
 
-## Create a Symbol
-- Go to: `Create → Cell View → From Cell View`  
-- Generate a **symbol view** for your Full Adder.  
-- This symbol can be used in test benches for simulation.
+Similarly create for the Clocked CMOS Logic.
+## Simulation Using ADE L
+- Open **ADE L** (Analog Design Environment - L) from Virtuoso.  
+- Load the **schematic cell view** for either:
+  - `full_adder_cmos`
+  - `full_adder_clocked_cmos`
+- Set the **VDD** source to **1.8 V**.  
+- Go to `Analysis → Choose` and select:
+  - **Type**: `Transient (tran)`  
+  - **Run Time**: `100 ns`
+- Apply input stimulus signals (e.g., `vpulse` sources for A, B, Cin, and clock in the clocked design).  
+- Run the simulation and observe the waveforms for:
+  - `Sum`
+  - `Carry`
+
+---
+
 
