@@ -142,4 +142,21 @@ The corresponding **output simulation** demonstrates the correct operation of th
   <img src="Results/Clocked_simulation.jpg" alt="Clocked CMOS Full Adder Simulation" width="80%"/>
 </p>
 
+## Performance Comparison
 
+| Design Style   | Sum Power | Sum Delay | Carry Power | Carry Delay |
+|----------------|-----------|-----------|-------------|-------------|
+| **Fully CMOS** | 821.5 mW | 2.717 ns  | 944.4 mW    | 1.469 ns    |
+| **Clocked CMOS** | 779.9 mW | 3.634 ns  | 1.025 W     | 2.600 ns    |
+
+---
+
+## Observation
+
+- The **Fully CMOS design** provides **lower delay** for both Sum and Carry outputs, making it highly suitable for applications that demand **high speed** and **low propagation delay**.  
+- The **Clocked CMOS design** consumes **slightly less power** for the Sum output but results in **higher delays** and **increased Carry power**, making it less efficient for speed-critical circuits.  
+- In terms of overall **power-delay product (PDP)**, the Fully CMOS implementation achieves a better balance between performance and efficiency.  
+- Clocked CMOS may still be preferred in **low-frequency or power-sensitive environments**, but its slower speed limits its usability in high-speed arithmetic logic units (ALUs).
+
+**Conclusion:**  
+The **Fully CMOS Full Adder** is the **better choice** for most applications, particularly those requiring **fast response times** and **balanced power efficiency**, while the **Clocked CMOS design** is suitable only for scenarios where **power saving is more critical than speed**.
